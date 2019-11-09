@@ -10,11 +10,23 @@ Fast create files in similar format.
 
 Output directory structure.
 
-### imgur-web-crawler
+### image-downloader
 
-Imgur web crawler.
+Several image downloader of different websites.
 
-> *Notice: Download [Chromedriver](https://chromedriver.chromium.org/downloads) first. Unzip it and put chromedriver.exe in the same folder.*
+#### imgur_image_downloader
+
+Image downloader of [Imgur](https://imgur.com/).
+
+>    Notice: Download [Chromedriver](https://chromedriver.chromium.org/downloads) first. Unzip it and put chromedriver.exe in the same folder.
+
+####  kissgoddess_image_downloader
+
+Image downloader of [Kiss Goddess](https://kissgoddess.com/).
+
+####  meituri_image_downloader
+
+Image downloader of [meituri](https://www.meituri.com/).
 
 ### markdown-toc-gen
 
