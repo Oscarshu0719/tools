@@ -8,30 +8,31 @@ from tqdm import tqdm
 
 
 """
-    Image downloader of https://www.meituri.com/.
+    Image downloader of https://www.lanvshen.com/.
 
     Usage:
-        python meituri_image_downloader.py
+        python lanvshen_image_downloader.py
 
     Notice:
         `MODEL_NO`, `ALBUM_NO` and `DOWNLOAD_FROM_MODEL` are changeable.
 """
 
-URL_ALBUM = 'https://www.meituri.com/a/{}/'
-URL_MODEL = 'https://www.meituri.com/t/{}/'
-
 # Change `MODEL_NO` to specify different model.
-MODEL_NO = 392
+MODEL_NO = 0
 # Change `ALBUM_NO` to specify different album.
-ALBUM_NO = 30060
+ALBUM_NO = 0
 """
 DOWNLOAD_FROM_MODEL: 
     True: Download all albums of a model.
     False: Download only one album.
 """
-DOWNLOAD_FROM_MODEL = True
+DOWNLOAD_FROM_MODEL = False
 
-IMG = 'https://ii.hywly.com/a/1/{}/{}.jpg'
+URL_ROOT = 'https://www.lanvshen.com/'
+URL_ALBUM = URL_ROOT + 'a/{}/'
+URL_MODEL = URL_ROOT + 't/{}/'
+
+IMG = 'https://img.hywly.com/a/1/{}/{}.jpg'
 MAX_ALBUMS_ONE_PAGE = 40
 
 INVALID_CHAR = {'\\', '/', ':', '*', '?', '"', '<', '>', '|'}
